@@ -1,8 +1,3 @@
-"""
-Created on Mon Oct 31 14:54:43 2022
-@author: 1013327
-"""
-
 import streamlit as st
 
 def intro():
@@ -11,9 +6,9 @@ def intro():
     st.sidebar.success("Select a demo above.")
     st.markdown("""Resume Creator""")
 
-def mapping_demo():
+def sales_force_analytics():
     import streamlit as st
-    st.write("# Welcome to Streamlit! 👋")
+    st.write("# Sales Force Analytics")
     st.sidebar.success("Select a demo above.")
     
 def plotting_demo():
@@ -27,8 +22,8 @@ def data_frame_demo():
     st.sidebar.success("Select a demo above.")
 
 page_names_to_funcs = {
-    "—": intro,
-    "Plotting Demo": plotting_demo,
+    "Introduction": intro,
+    "Sales Force Analytics": sales_force_analytics,
     "Mapping Demo": mapping_demo,
     "DataFrame Demo": data_frame_demo
 }
