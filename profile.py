@@ -24,7 +24,7 @@ def data_frame_demo():
 page_names_to_funcs = {
     "Introduction": intro,
     "Sales Force Analytics": sales_force_analytics,
-    "Mapping Demo": mapping_demo,
+    "Mapping Demo": plotting_demo,
     "DataFrame Demo": data_frame_demo
 }
 
